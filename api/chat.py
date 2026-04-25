@@ -64,7 +64,7 @@ SUBSISTEMAS CONTABLES:
 
 === OBLIGACIONES FISCALES (SAT México) ===
 Impuestos: ISR, IVA, IEPS, ISAN.
-Sanciones: Multas (Art. 70-91 CFF), Actualizaciones y Recargos (Art. 21 CFF), Penas privativas de libertad (delitos fiscales), Gastos de ejecución.
+Sanciones: Multas (Art. 70-91 CFF), Actualizaciones y Recargos (Art. 21 CFF), Penas privativas de libertad, Gastos de ejecución.
 """
 
 SYSTEM_PROMPT = f"""Eres un asistente educativo especializado en el cuestionario de "Postulados Básicos de la Información Financiera".
@@ -92,33 +92,44 @@ class handler(BaseHTTPRequestHandler):
             body = json.loads(self.rfile.read(length))
             messages = body.get("messages", [])
 
-            api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+            api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
-                self._respond(500, {"error": "ANTHROPIC_API_KEY no configurada en el servidor."})
+                self._respond(500, {"error": "GEMINI_API_KEY no configurada en el servidor."})
                 return
 
+            # Convertir historial al formato de Gemini
+            gemini_contents = []
+            for msg in messages[-10:]:
+                role = "user" if msg["role"] == "user" else "model"
+                gemini_contents.append({
+                    "role": role,
+                    "parts": [{"text": msg["content"]}]
+                })
+
             payload = json.dumps({
-                "model": "claude-haiku-4-5-20251001",
-                "max_tokens": 1024,
-                "system": SYSTEM_PROMPT,
-                "messages": messages[-10:]
+                "system_instruction": {
+                    "parts": [{"text": SYSTEM_PROMPT}]
+                },
+                "contents": gemini_contents,
+                "generationConfig": {
+                    "maxOutputTokens": 1024,
+                    "temperature": 0.3
+                }
             }).encode()
 
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+
             req = urllib.request.Request(
-                "https://api.anthropic.com/v1/messages",
+                url,
                 data=payload,
-                headers={
-                    "Content-Type": "application/json",
-                    "x-api-key": api_key,
-                    "anthropic-version": "2023-06-01"
-                },
+                headers={"Content-Type": "application/json"},
                 method="POST"
             )
 
             with urllib.request.urlopen(req) as resp:
                 data = json.loads(resp.read())
 
-            reply = data["content"][0]["text"]
+            reply = data["candidates"][0]["content"]["parts"][0]["text"]
             self._respond(200, {"reply": reply})
 
         except urllib.error.HTTPError as e:
