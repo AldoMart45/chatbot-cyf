@@ -8,18 +8,18 @@ PDF_CONTEXT = """
 CUESTIONARIO: POSTULADOS BÁSICOS DE LA INFORMACIÓN FINANCIERA
 
 === VERDADERO / FALSO ===
-1. Inversionistas, acreedores, clientes y proveedores son usuarios EXTERNOS (no internos). Los usuarios internos son empleados y directivos. → FALSO
-2. La información administrativa es para usuarios INTERNOS (directores, gerentes, jefes de dpto). La contabilidad financiera se dirige a externos. → FALSO (Pág. 35)
-3. La aseveración que dice que el postulado de sustancia económica trata sobre operaciones similares con tratamiento semejante → FALSO (eso describe la CONSISTENCIA, no la sustancia económica)
-4. Las NIF establecen la manera en que se elabora y comunica la información financiera. → VERDADERO (pág. 34)
-5. La característica de oportunidad indica que información anticipada o posterior produciría decisiones erróneas. → VERDADERO (pág. 52)
-6. El postulado de dualidad económica establece que todo recurso tiene una fuente que lo generó. → VERDADERO (pág. 55)
+1. Inversionistas, acreedores, clientes y proveedores son usuarios EXTERNOS (no internos). Los usuarios internos son empleados y directivos. FALSO
+2. La información administrativa es para usuarios INTERNOS (directores, gerentes, jefes de dpto). La contabilidad financiera se dirige a externos. FALSO (Pág. 35)
+3. La aseveración que dice que el postulado de sustancia económica trata sobre operaciones similares con tratamiento semejante es FALSO (eso describe la CONSISTENCIA, no la sustancia económica)
+4. Las NIF establecen la manera en que se elabora y comunica la información financiera. VERDADERO (pág. 34)
+5. La característica de oportunidad indica que información anticipada o posterior produciría decisiones erróneas. VERDADERO (pág. 52)
+6. El postulado de dualidad económica establece que todo recurso tiene una fuente que lo generó. VERDADERO (pág. 55)
 
 === OPCIÓN MÚLTIPLE ===
 - Postulado que reconoce ingresos aunque no hayan sido cobrados: DEVENGACIÓN CONTABLE
 - Postulado que cuantifica transacciones en términos monetarios al valor de pago inicial: VALUACIÓN (pág. 54)
 - Postulado que asume que el negocio continuará indefinidamente: NEGOCIO EN MARCHA (pág. 53)
-- Postulado: todo recurso tiene una fuente / "a todo cargo corresponde un abono": DUALIDAD ECONÓMICA (pág. 54)
+- Postulado "todo recurso tiene una fuente / a todo cargo corresponde un abono": DUALIDAD ECONÓMICA (pág. 54)
 
 === LOS 8 POSTULADOS BÁSICOS (pág. 55) ===
 1. SUSTANCIA ECONÓMICA: Registrar transacciones conforme a su realidad económica, no solo su forma jurídica.
@@ -37,7 +37,7 @@ Son la base sobre la que se efectúa el registro contable. Proporcionan sustento
 === POSTULADO DE ENTIDAD ECONÓMICA (detalle, pág. 53) ===
 La contabilidad de la empresa es independiente de sus accionistas y dueños.
 Los recursos personales de los socios (inmuebles, vehículos) deben mantenerse fuera de los registros.
-Si un socio compra casa personal con dinero de la empresa → se registra como préstamo, la casa NO es activo de la empresa.
+Si un socio compra casa personal con dinero de la empresa se registra como préstamo, la casa NO es activo de la empresa.
 
 === POSTULADO DE ASOCIACIÓN COSTOS/GASTOS (detalle, pág. 69) ===
 Los costos y gastos deben identificarse con los ingresos que se generen en el mismo periodo,
@@ -53,26 +53,18 @@ SUBSISTEMAS CONTABLES:
 - Contabilidad Fiscal (F): para SHCP, Fisco, CNBV.
 
 === EJERCICIOS DE APLICACIÓN ===
-1. Herramientas con vida de 3 años registradas como gasto total del mes → INCORRECTO. Postulado: Asociación de costos y gastos con ingresos.
-2. Automóviles de dueños NO incluidos en estados financieros → CORRECTO. Postulado: Entidad económica.
-3. Métodos de valuación de inventarios siempre iguales → CORRECTO. Postulado: Consistencia.
-4. Ventas de diciembre registradas aunque cobro sea en 60 días → CORRECTO. Postulado: Devengación contable.
-5. Mercancía registrada al precio de adquisición (no al nuevo precio anunciado) → CORRECTO. Postulado: Valuación.
-6. Empresa que planea seguir operando presenta activos a valores de liquidación → INCORRECTO. Postulado: Negocio en marcha.
-7. Renta de bodega como ingreso normal en empresa de colchones → INCORRECTO. Postulado: Sustancia económica.
-8. Compra a crédito: solo se registra inventario, sin reconocer deuda → INCORRECTO. Postulado: Dualidad económica.
+1. Herramientas con vida de 3 años registradas como gasto total del mes. INCORRECTO. Postulado: Asociación de costos y gastos con ingresos.
+2. Automóviles de dueños NO incluidos en estados financieros. CORRECTO. Postulado: Entidad económica.
+3. Métodos de valuación de inventarios siempre iguales. CORRECTO. Postulado: Consistencia.
+4. Ventas de diciembre registradas aunque cobro sea en 60 días. CORRECTO. Postulado: Devengación contable.
+5. Mercancía registrada al precio de adquisición (no al nuevo precio anunciado). CORRECTO. Postulado: Valuación.
+6. Empresa que planea seguir operando presenta activos a valores de liquidación. INCORRECTO. Postulado: Negocio en marcha.
+7. Renta de bodega como ingreso normal en empresa de colchones. INCORRECTO. Postulado: Sustancia económica.
+8. Compra a crédito: solo se registra inventario, sin reconocer deuda. INCORRECTO. Postulado: Dualidad económica.
 
 === OBLIGACIONES FISCALES (SAT México) ===
 Impuestos: ISR, IVA, IEPS, ISAN.
 Sanciones: Multas (Art. 70-91 CFF), Actualizaciones y Recargos (Art. 21 CFF), Penas privativas de libertad (delitos fiscales), Gastos de ejecución.
-
-=== GRUPO BIMBO (BMV) ===
-Entidad: Grupo Bimbo S.A.B. de C.V., cotiza bajo clave "BIMBO".
-Marcas: Bimbo, Marinela, Tía Rosa, Barcel, Oroweat, Sara Lee, Mrs Baird's.
-
-=== GRUMA ===
-Productora de harina de maíz y derivados que cotiza en BMV.
-Usuarios: Soriana, Público inversionista, Empleados, Helados Sultana, Accionistas, Proveedores de maíz, Banco, Tiendas OXXO — todos son usuarios de su información financiera.
 """
 
 SYSTEM_PROMPT = f"""Eres un asistente educativo especializado en el cuestionario de "Postulados Básicos de la Información Financiera".
@@ -100,27 +92,25 @@ class handler(BaseHTTPRequestHandler):
             body = json.loads(self.rfile.read(length))
             messages = body.get("messages", [])
 
-            api_key = os.environ.get("GROQ_API_KEY", "")
+            api_key = os.environ.get("ANTHROPIC_API_KEY", "")
             if not api_key:
-                self._error(500, "GROQ_API_KEY no configurada en el servidor.")
+                self._respond(500, {"error": "ANTHROPIC_API_KEY no configurada en el servidor."})
                 return
 
             payload = json.dumps({
-                "model": "llama-3.3-70b-versatile",
+                "model": "claude-haiku-4-5-20251001",
                 "max_tokens": 1024,
-                "temperature": 0.3,
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    *messages[-10:]
-                ]
+                "system": SYSTEM_PROMPT,
+                "messages": messages[-10:]
             }).encode()
 
             req = urllib.request.Request(
-                "https://api.groq.com/openai/v1/chat/completions",
+                "https://api.anthropic.com/v1/messages",
                 data=payload,
                 headers={
                     "Content-Type": "application/json",
-                    "Authorization": f"Bearer {api_key}"
+                    "x-api-key": api_key,
+                    "anthropic-version": "2023-06-01"
                 },
                 method="POST"
             )
@@ -128,26 +118,21 @@ class handler(BaseHTTPRequestHandler):
             with urllib.request.urlopen(req) as resp:
                 data = json.loads(resp.read())
 
-            reply = data["choices"][0]["message"]["content"]
-
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json")
-            self.send_header("Access-Control-Allow-Origin", "*")
-            self.end_headers()
-            self.wfile.write(json.dumps({"reply": reply}).encode())
+            reply = data["content"][0]["text"]
+            self._respond(200, {"reply": reply})
 
         except urllib.error.HTTPError as e:
             err = e.read().decode()
-            self._error(e.code, f"Error de Groq: {err}")
+            self._respond(e.code, {"error": f"Error de API: {err}"})
         except Exception as e:
-            self._error(500, str(e))
+            self._respond(500, {"error": str(e)})
 
-    def _error(self, code, msg):
+    def _respond(self, code, body):
         self.send_response(code)
         self.send_header("Content-Type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
-        self.wfile.write(json.dumps({"error": msg}).encode())
+        self.wfile.write(json.dumps(body).encode())
 
     def log_message(self, *args):
         pass
