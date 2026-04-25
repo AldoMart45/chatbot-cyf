@@ -117,7 +117,7 @@ class handler(BaseHTTPRequestHandler):
                 }
             }).encode()
 
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
 
             req = urllib.request.Request(
                 url,
